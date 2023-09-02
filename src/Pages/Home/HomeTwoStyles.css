@@ -1,0 +1,130 @@
+.home_section_two{
+    background-color: #EEEE;
+    /* background-color: #393e46; */
+    background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+    padding-bottom: 70px;
+}
+
+/* <--------------------   Home 2 Main heading CSS   ----------------->  */
+
+.home_two_text_container{
+    display: grid;
+    margin: 0 10%;
+    
+}
+
+.home_two_text_container h1{
+    color: #00ADB5;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 120px;
+}
+
+.home_two_text_container p{
+    text-align: center;
+    color: #393E46;
+    margin-bottom: -100px;
+}
+
+
+/* <----------------------    Swiper for destop    ---------------------->  */
+.home_two_swiper_div{
+    padding-bottom: 50px;
+}
+
+.home_two_swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 5px;
+  }
+  
+.home_two_swiper_slide {
+    background-position: center;
+    background-size: cover;
+    width: 500px !important;
+    height: auto !important;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+.home_two_swiper_slide img {
+    display: block;
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    /* box-shadow: 5px 5px 0px 2px #000000a2; */
+  }
+
+.home_two_card_text{
+    color: #fff;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    background-color: #00acb5b3;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    
+}
+
+/* <------------------------------ For Mobile    ---------------------------->  */
+
+@media only screen and (max-width: 600px) {
+
+                    /* ---- Home 2 Main Heading Text --- */
+
+    .home_two_text_container h1{
+        margin-top: 80px;
+        font-size: 2.6rem;
+    }
+    .home_two_text_container p{
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        
+    }
+
+                        /* ---- Home 2 Swiper --- */
+
+    .home_two_card_text{
+        color: #fff;
+        position: absolute;
+        top: 170px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        
+    }
+
+    .home_two_swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 5px;
+        margin-top: 30px;
+        
+      }
+      
+    .home_two_swiper_slide {
+        background-position: center;
+        background-size: cover;
+        width: 350px !important;
+        height: auto !important;
+        margin-top: 20px;
+        margin-bottom: 40px;
+       
+      }
+      
+    .home_two_swiper_slide img {
+        display: block;
+        width: 350px;
+        height: 210px;
+        
+      }
+
+    
+}
